@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+	float percent;
+	int income;
+	printf("Enter your percentage: ");
+	scanf("%f",&percent);
+	printf("Enter your family income: ");
+	scanf("%d",&income);
+	if (percent>=80 || income<50000)
+	{
+		printf("Qualified for scholarship");
+	}else{
+		printf("Not qualified");
+	}
+}
